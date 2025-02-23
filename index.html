@@ -4,27 +4,27 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta name="description" content="HyDA: A novel hypernetwork-based framework for unsupervised domain adaptation in medical imaging">
+  <meta property="og:title" content="HyDA: Hypernetworks for Domain Adaptation"/>
+  <meta property="og:description" content="A novel approach using hypernetworks for unsupervised domain adaptation in medical imaging"/>
+  <meta property="og:url" content="https://doronser.github.io/hyda/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:title" content="HyDA: Hypernetworks for Domain Adaptation">
+  <meta name="twitter:description" content="A novel approach using hypernetworks for unsupervised domain adaptation in medical imaging">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="domain adaptation, medical imaging, hypernetworks, deep learning, MRI, X-ray">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>HyDA</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,21 +52,18 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">HyDA: Hypernetworks for Unsupervised Domain Adaptation in Medical Imaging</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://github.com/doronser" target="_blank">Doron Serebro</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                  <a href="https://www.ee.bgu.ac.il/~rrtammy/" target="_blank">Tammy Riklin-Raviv</a>,</span>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Ben-Gurion University of the Negev<br>MICCAI 2025</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -78,12 +75,12 @@
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Paper (Coming Soon)</span>
                       </a>
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,16 +88,16 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/doronser/hyda" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (Coming Soon)</span>
                   </a>
                 </span>
 
@@ -123,22 +120,19 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- HyDA Overview -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <img src="static/images/1_hyda_overview.png" alt="HyDA Architecture"/>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        We present HyDA, a novel hypernetwork-based framework for unsupervised domain adaptation in medical imaging. HyDA learns implicit domain representations which are passed to a hypernetwork that generates domain-specific parameters for the primary network.
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End HyDA Overview -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -148,7 +142,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Domain shift is a significant challenge in adapting medical imaging analysis models for practical use. Medical imaging datasets often exhibit variations due to differences in acquisition protocols, patient demographics, and imaging devices. Current approaches often struggle with generalization across diverse datasets, leading to decreased performance when models trained on data from specific sources are applied to others. These limitations hinder the widespread deployment of models in clinical settings, where data variability is inevitable. 
+            In this work, we introduce HyDA, a novel hypernetwork-based framework that leverages domain information instead of ignoring it, enabling dynamic adaptation at inference time. Unlike prior UDA methods that only utilize domain priors during training, HyDA learns implicit domain representations and uses them to adjust model parameters on-the-fly, making it the first approach to provide real-time adaptation to unseen medical domains. We validate HyDA on two clinically relevant tasks — MRI brain age prediction and chest X-ray pathology classification — demonstrating its ability to generalize across tasks and modalities.
           </p>
         </div>
       </div>
@@ -157,110 +152,90 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+<!-- Main Concept -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Main Concept</h2>
+      <p>
+        Most unsupervised domain adaptation (UDA) methods use domain prior as a negative signal in an attempt to align the source and target distributions. This results in a domain-agnostic feature space, which  essentially erases any domain information.
+        In this work, we propose an alternative approach, where instead of aiming to learn a single global domain-agnostic feature space, we rely on domain specific features to dynamically adapt the model for each sample on-the-fly.
+        This is done using a separate domain branch and a hypernetwork that generates domain-specific parameters for the primary network.
+      </p>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- End Main Concept -->
 
 
-
-
-<!-- Youtube video -->
+<!-- Image carousel -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h2 class="title is-3">Brain MRI Age Prediction</h2>
+          <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <img src="static/images/mri_architecture.png" alt="HyDA Architecture"/>
+            <h2 class="subtitle has-text-centered">
+              For the brain age prediction task, we used a custom 3D CNN architecture. The domain branch is similar to the primary network, but with significantly less parameters. The hypernework is a 2 layer MLP that projects domain embedding to an intermediate space, and an output layer that generates domain-specific parameters for the age regressor in the primary network.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/mri_results_table.png" alt="MRI Results" style="display: block; margin-left: auto; margin-right: auto;"/>
+            <h2 class="subtitle has-text-centered">
+              Brain age prediction results across different MRI domains. HyDA improved over the baseline in both fully supervised and leave-one-domain-out settings.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/mri_domain_tsne.png" alt="X-ray Results"/>
+            <h2 class="subtitle has-text-centered">
+              Domain features t-SNE visualization, Camcan highlighted in red. When the domain classifier is trained on all domains (a), domain space is well separated. When the domain classifier is trained on all domains except Camcan (b), target domain is represented as an interpolation of existing domains. HyDA learns to map the target domain to the Camcan domain, indicating that it can adapt to unseen domains.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/mri_age_tsne.png" alt="X-ray Results"/>
+            <h2 class="subtitle has-text-centered">
+              t-SNE projections of age features from the primary branch of a baseline model (a) and our proposed method (b). Target domain projections are enlarged for better distinction.        </h2>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End image carousel -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
+<!-- Image carousel -->
+<section class="hero is-small-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Chest X-ray Pathology Classification</h2>
+          <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <img src="static/images/cxr_results_table.png" alt="MRI Results" style="display: block; margin-left: auto; margin-right: auto;"/>
+            <h2 class="subtitle has-text-centered">
+              CXR pathology classification results.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/cxr_domain_tsne.png" alt="X-ray Results"/>
+            <h2 class="subtitle has-text-centered">
+              t-SNE projections of domain features obtained from the HyDA domain branch trained in a leave-one-out setting. The plot illustrate how well the learned domain features handle previously unseen domains: No target domain (a), NIH (b), CheXpert (c) and VinDr (d).        </h2>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
-
-
-
-
+<!-- End image carousel -->
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -270,7 +245,7 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
@@ -278,7 +253,12 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@inproceedings{serebro2025hyda,
+    title={HyDA: Hypernetworks for Unsupervised Domain Adaptation in Medical Imaging},
+    author={Serebro, Doron and Riklin-Raviv, Tammy},
+    booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+    year={2025}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
