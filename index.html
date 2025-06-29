@@ -2,27 +2,21 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="HyDA: A novel hypernetwork-based framework for unsupervised domain adaptation in medical imaging">
-  <meta property="og:title" content="HyDA: Hypernetworks for Domain Adaptation"/>
-  <meta property="og:description" content="A novel approach using hypernetworks for unsupervised domain adaptation in medical imaging"/>
+  <!-- Meta tags for social media banners -->
+  <meta name="description" content="HyDA: Hypernetworks for Test Time Domain Adaptation in Medical Imaging Analysis - MICCAI 2025">
+  <meta property="og:title" content="HyDA: Hypernetworks for Test Time Domain Adaptation in Medical Imaging Analysis"/>
+  <meta property="og:description" content="A novel hypernetwork framework that leverages domain characteristics for dynamic adaptation at inference time in medical imaging."/>
   <meta property="og:url" content="https://doronser.github.io/hyda/"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image" content="static/images/hyda_banner.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
-
-  <meta name="twitter:title" content="HyDA: Hypernetworks for Domain Adaptation">
-  <meta name="twitter:description" content="A novel approach using hypernetworks for unsupervised domain adaptation in medical imaging">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:title" content="HyDA: Hypernetworks for Test Time Domain Adaptation in Medical Imaging Analysis">
+  <meta name="twitter:description" content="A novel hypernetwork framework for dynamic domain adaptation in medical imaging - accepted to MICCAI 2025">
+  <meta name="twitter:image" content="static/images/hyda_banner.png">
   <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="domain adaptation, medical imaging, hypernetworks, deep learning, MRI, X-ray">
+  <meta name="keywords" content="Domain Adaptation, Hypernetworks, MRI, X-Ray, Medical Imaging, MICCAI, Deep Learning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
 
   <title>HyDA: Hypernetworks for Test Time Domain Adaptation in Medical Imaging Analysis</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -46,7 +40,6 @@
 </head>
 <body>
 
-
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
@@ -56,79 +49,86 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://github.com/doronser" target="_blank">Doron Serebro</a>,</span>
+                <a href="https://scholar.google.com/citations?user=vO1_M-QAAAAJ&hl=en" target="_blank">Doron Serebro</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="https://www.ee.bgu.ac.il/~rrtammy/" target="_blank">Tammy Riklin-Raviv</a></span>
-            </div>
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">Ben-Gurion University of The Negev</span>
-            </div>
+                  <a href="https://scholar.google.com/citations?user=xt7uyAEAAAAJ&hl=iw&oi=ao" target="_blank">Tammy Riklin-Raviv</a><sup>1</sup></span>
+                  </div>
 
-            <div class="column has-text-centered">
-              <div class="publication-links">
-                   <!-- Arxiv PDF link -->
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Ben-Gurion University of The Negev<br><strong>MICCAI 2025</strong></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <!-- <a href="https://arxiv.org/pdf/2503.04979.pdf" target="_blank" -->
+                        <a href="static/pdfs/hyda_paper.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/doronser/hyda" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2503.04979" target="_blank"
+                  <a href="https://arxiv.org/abs/2503.04979" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="fas fa-file-pdf"></i>
+                    <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>Paper (arXiv Preprint)</span>
+                  <span>arXiv</span>
                 </a>
               </span>
-
-              <!-- Supplementary PDF link -->
-              <!-- <span class="link-block">
-                <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                class="external-link button is-normal is-rounded is-dark">
-                <span class="icon">
-                  <i class="fas fa-file-pdf"></i>
-                </span>
-                <span>Supplementary</span>
-              </a>
-            </span> -->
-
-            <!-- Github link -->
-            <span class="link-block">
-              <a href="https://github.com/doronser/hyda" target="_blank"
-              class="external-link button is-normal is-rounded is-dark">
-              <span class="icon">
-                <i class="fab fa-github"></i>
-              </span>
-              <span>Code (Coming Soon)</span>
-            </a>
-          </span>
-
-          <!-- ArXiv abstract Link -->
-          <span class="link-block">
-            <a href="https://arxiv.org/abs/2503.04979" target="_blank"
-            class="external-link button is-normal is-rounded is-dark">
-            <span class="icon">
-              <i class="ai ai-arxiv"></i>
-            </span>
-            <span>arXiv</span>
-          </a>
-        </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </section>
 
-
-<!-- HyDA Overview -->
+<!-- Main Figure -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/1_hyda_overview.png" alt="HyDA Architecture"/>
-      <h2 class="subtitle has-text-centered">
-        HyDA is a novel hypernetwork-based framework for test-time domain adaptation in medical imaging. Unlike traditional domain adaptation methods that require access to target domain data during training, HyDA learns implicit domain representations and leverages them to generate domain-specific parameters for the primary network on-the-fly. This enables dynamic adaptation to previously unseen domains at inference time. HyDA is task- and modality-agnostic, making it suitable for a wide range of medical imaging applications.
-      </h2>
+      <div class="has-text-centered">
+        <!-- Main figure from the paper (Figure 1) -->
+        <img src="static/images/1_hyda_overview.png" alt="HyDA Framework Overview" style="max-width: 100%; height: auto;"/>
+      </div>
+
+      <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Key Contributions</h2>
+          <div class="content has-text-justified">
+            <p>
+              We introduce HyDA, a novel hypernetwork framework for test-time domain adaptation in medical imaging:
+            </p>
+            <ul>
+              <li><strong>Hypernetwork Framework</strong>: HyDA is general purpose and applicable to any imaging modality (MRI, X-ray, etc.) and task type (classification, segmentation, etc.).</li>
+              <li><strong>Domain-Aware Predictions</strong>: HyDA uses domain-specific embeddings to provide tailored predictions per sample.</li>
+              <li><strong>0 Additional Data</strong>: HyDA can be applied in domain adaptation or test time adaptation settings, both of which do not require access to target domain data during training.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<!-- End HyDA Overview -->
-
+<!-- End main figure -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -139,12 +139,10 @@
         <div class="content has-text-justified">
           <p>
             Medical imaging datasets often vary due to differences in acquisition protocols, patient demographics, and imaging devices. These variations in data distribution, known as domain shift, present a significant challenge in adapting imaging analysis models for practical healthcare applications.
-          </p>
-          <p>
             Most current domain adaptation (DA) approaches aim either to align the distributions between the source and target domains or to learn an invariant feature space that generalizes well across all domains. However, both strategies require access to a sufficient number of examples, though not necessarily annotated, from the test domain during training. This limitation hinders the widespread deployment of models in clinical settings, where target domain data may only be accessible in real time.
           </p>
           <p>
-            In this work, we introduce HyDA, a novel hypernetwork framework that leverages domain characteristics rather than suppressing them, enabling dynamic adaptation at inference time. Specifically, HyDA learns implicit domain representations and uses them to adjust model parameters on-the-fly, effectively interpolating to unseen domains. We validate HyDA on two clinically relevant applications—MRI brain age prediction and chest X-ray pathology classification—demonstrating its ability to generalize across tasks and modalities.
+            In this work, we introduce HyDA, a novel hypernetwork framework that leverages domain-specific characteristics rather than suppressing them, enabling dynamic adaptation at inference time. Specifically, HyDA learns implicit domain representations and uses them to adjust model parameters on-the-fly, allowing effective interpolation to unseen domains. We validate HyDA on two clinically relevant applications—MRI-based brain age prediction and chest X-ray pathology classification—demonstrating its ability to generalize across tasks and imaging modalities.
           </p>
         </div>
       </div>
@@ -153,299 +151,414 @@
 </section>
 <!-- End paper abstract -->
 
-<!-- Main Concept -->
-<section class="hero teaser">
+<!-- Motivation -->
+<section class="section">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <h2 class="title is-3 has-text-centered">Main Concept</h2>
-      <p>
-        HyDA leverages domain characteristics, learning implicit domain representations that are used to generate weights and biases for a primary network on-the-fly.
-      </p>
-      <p>
-        This enables dynamic adaptation to previously unseen domains at test time, without requiring access to target domain data during training. The framework is task- and modality-agnostic, and can be integrated into various medical imaging applications.
-      </p>
-      <p>
-        HyDA's hypernetwork generates domain-specific parameters for the primary network, allowing for effective interpolation across the domain space and robust performance in real-world clinical scenarios.
-      </p>
-    </div>
-  </div>
-</section>
-<!-- End Main Concept -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Motivation</h2>
+        <div class="content has-text-justified">
+          <p>
+            Most existing domain adaptation methods aim to create domain-agnostic features by suppressing domain-specific information. This approach discards valuable domain characteristics that could actually enhance model performance.
+          </p>
+          <p>
+            Our key insight is to <strong>leverage domain information as a prior</strong> rather than suppressing it. Instead of making features domain-invariant, we learn to utilize domain characteristics to tailor model predictions for each specific domain.
+          </p>
 
+          <div class="has-text-centered" style="margin: 2rem 0;">
+            <h3 class="subtitle has-text-centered">
+              <strong>Domain Interpolation</strong>
+            </h3>
+            <img src="static/images/domain_embeddings_crop.gif" alt="Domain Embeddings Visualization" style="max-width: 100%; height: auto;"/>
+          </div>
 
-<!-- Image carousel -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Brain MRI Age Prediction</h2>
-          <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-            <img src="static/images/mri_architecture.png" alt="HyDA Architecture"/>
-            <h2 class="subtitle has-text-centered">
-              For the brain age prediction task, we used a custom 3D CNN architecture. The domain branch is similar to the primary network, but with significantly less parameters. The hypernework is a 2 layer MLP that projects domain embedding to an intermediate space, and an output layer that generates domain-specific parameters for the age regressor in the primary network.
-            </h2>
-          </div>
-          <div class="item">
-            <img src="static/images/mri_results_table.png" alt="MRI Results" style="display: block; margin-left: auto; margin-right: auto;"/>
-            <h2 class="subtitle has-text-centered">
-              Brain age prediction results across different MRI domains. HyDA improved over the baseline in both fully supervised and leave-one-domain-out settings.
-            </h2>
-          </div>
-          <div class="item">
-            <img src="static/images/mri_domain_tsne.png" alt="X-ray Results"/>
-            <h2 class="subtitle has-text-centered">
-              Domain features t-SNE visualization, Camcan highlighted in red. When the domain classifier is trained on all domains (a), domain space is well separated. When the domain classifier is trained on all domains except Camcan (b), target domain is represented as an interpolation of existing domains. HyDA learns to map the target domain to the Camcan domain, indicating that it can adapt to unseen domains.
-            </h2>
-          </div>
-          <!-- <div class="item">
-            <img src="static/images/mri_age_tsne.png" alt="X-ray Results"/>
-            <h2 class="subtitle has-text-centered">
-              t-SNE projections of age features from the primary branch of a baseline model (a) and our proposed method (b). Target domain projections are enlarged for better distinction.        </h2>
-          </div> -->
+          <p>
+            The above t-SNE plot shows how HyDA learns meaningful domain representations. Each domain is spanned by a cluster of samples (e.g. scans from the same scanner, protocol, etc.). When we encounter samples from a new, unseen domain (red points), they naturally fall within the learned domain space as interpolations of existing domains. This representation allows HyDA to generate domain-specific parameters for each sample, enabling dynamic adaptation at test time.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End image carousel -->
+<!-- End motivation -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small-light">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Chest X-ray Pathology Classification</h2>
-          <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-            <img src="static/images/cxr_results_table.png" alt="MRI Results" style="display: block; margin-left: auto; margin-right: auto;"/>
-            <h2 class="subtitle has-text-centered">
-              CXR pathology classification results.
-            </h2>
-          </div>
-          <div class="item">
-            <img src="static/images/cxr_domain_tsne.png" alt="X-ray Results"/>
-            <h2 class="subtitle has-text-centered">
-              t-SNE projections of domain features obtained from the HyDA domain branch trained in a leave-one-out setting. The plot illustrate how well the learned domain features handle previously unseen domains: No target domain (a), NIH (b), CheXpert (c) and VinDr (d).        </h2>
-          </div>
+<!-- Method -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <p>
+            HyDA consists of three main components: a <strong>primary network</strong> P for medical imaging tasks, a <strong>hypernetwork</strong> h, and a <strong>domain classifier</strong> D. The domain classifier learns implicit domain representations through its encoder component D<sub>enc</sub>.
+          </p>
+          <p>
+            These domain features are fed to the hypernetwork h, which generates external parameters (weights and biases) that are transferred to specific layers in the primary network P. During inference, when encountering a new domain, the domain encoder extracts domain-specific features, and the hypernetwork dynamically generates appropriate parameters for that domain.
+          </p>
+          <p>
+            This allows the model to interpolate between known domains and adapt to unseen target domains without requiring target domain data during training. The framework is trained using task-specific losses combined with a multi-similarity loss that encourages similar domain representations for images from the same domain.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End image carousel -->
+<!-- End method -->
 
-
-<!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section> -->
-<!--End paper poster -->
-
-
-<!-- Results Section -->
+<!-- Experiments and Results -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Results</h2>
+        <h2 class="title is-3">Experiments and Results</h2>
         <div class="content has-text-justified">
-          <h3 class="title is-4">1. Brain MRI Age Prediction</h3>
-          <p><b>Data:</b> 19 brain MRI datasets, 26,691 scans.</p>
-          <p><b>Task:</b> Predicting brain age from MRI scans.</p>
-          <p><b>Model:</b> 3D CNN (Levakov et al.), with a domain classifier and a hypernetwork generating domain-specific weights.</p>
-          <p><b>Key Results:</b></p>
-          <div style="overflow-x:auto;">
-            <table class="table is-fullwidth" style="border-collapse:collapse; font-size:0.97em;">
-              <style>
-                .hyda-table th, .hyda-table2 th {
-                  background: #3b4a5a;
-                  color: #fff !important;
-                }
-                .hyda-table td {
-                  border: 1px solid #d1d5db;
-                  text-align: center;
-                  background: #f7fafc;
-                }
-                .hyda-table tr:nth-child(even) td {
-                  background: #e3e8ee;
-                }
-                .hyda-table tr:hover td {
-                  background: #c7d2e5;
-                }
-                .hyda-table caption {
-                  caption-side: top;
-                  font-weight: bold;
-                  color: #2c3844;
-                  margin-bottom: 0.5em;
-                }
-              </style>
-              <caption>Brain MRI Age Prediction Results</caption>
+          <h3 class="title is-4">Chest X-ray Pathology Classification</h3>
+          <p>
+            We evaluated HyDA on chest X-ray pathology classification using multiple datasets including <a href="https://stanfordmlgroup.github.io/competitions/chexpert/" target="_blank">CheXpert</a>, <a href="https://nihcc.app.box.com/v/ChestXray-NIHCC" target="_blank">NIH</a>, and <a href="https://vindr.ai/datasets/cxr" target="_blank">VinDr-CXR</a>. The results demonstrate that HyDA consistently outperforms baseline methods and other domain adaptation techniques.
+          </p>
+
+          <h4 class="title is-5">Chest X-ray Classification Results (AUC ↑)</h4>
+          <div class="table-container">
+            <table class="table is-striped is-hoverable is-fullwidth has-text-centered">
               <thead>
-                <tr class="hyda-table">
-                  <th class="hyda-table">Model</th>
-                  <th class="hyda-table">CNP</th>
-                  <th class="hyda-table">NKI</th>
-                  <th class="hyda-table">ixi</th>
-                  <th class="hyda-table">Oasis</th>
-                  <th class="hyda-table">ABIDE</th>
-                  <th class="hyda-table">ADNI</th>
-                  <th class="hyda-table">AIBL</th>
-                  <th class="hyda-table">PPMI</th>
-                  <th class="hyda-table">Camcan</th>
-                  <th class="hyda-table">SLIM</th>
-                  <th class="hyda-table">Avg. (std)</th>
+                <tr class="has-background-light">
+                  <th class="has-text-weight-bold">Target Domain</th>
+                  <th class="has-text-weight-bold">Method</th>
+                  <th class="has-text-weight-bold">Atel.</th>
+                  <th class="has-text-weight-bold">Cardio.</th>
+                  <th class="has-text-weight-bold">Cons.</th>
+                  <th class="has-text-weight-bold">Eff.</th>
+                  <th class="has-text-weight-bold">Pneu.</th>
+                  <th class="has-text-weight-bold">Avg. (std)</th>
                 </tr>
               </thead>
               <tbody>
-                <tr><td colspan="12" style="text-align:center; background:#e0e7ef;"><b>Fully Supervised (Validation MAE) ↓</b></td></tr>
                 <tr>
+                  <td rowspan="3" class="has-text-weight-semibold">-</td>
                   <td>Baseline</td>
-                  <td>3.11</td><td>3.01</td><td>3.54</td><td><b>3.29</b></td><td>2.09</td><td><b>2.80</b></td><td><b>2.74</b></td><td>4.23</td><td>3.35</td><td>0.47</td><td>2.86 (0.96)</td>
+                  <td>0.85</td>
+                  <td>0.95</td>
+                  <td>0.86</td>
+                  <td>0.94</td>
+                  <td>0.87</td>
+                  <td>0.89 (0.04)</td>
                 </tr>
                 <tr>
+                  <td>MDAN</td>
+                  <td>0.86</td>
+                  <td>0.96</td>
+                  <td>0.86</td>
+                  <td>0.94</td>
+                  <td>0.88</td>
+                  <td>0.90 (0.04)</td>
+                </tr>
+                <tr class="has-background-info-light">
                   <td>HyDA</td>
-                  <td><b>2.39</b></td><td><b>2.92</b></td><td><b>3.22</b></td><td><b>3.29</b></td><td><b>1.74</b></td><td>3.04</td><td>2.94</td><td><b>3.94</b></td><td><b>3.21</b></td><td><b>0.37</b></td><td><b>2.71 (0.95)</b></td>
+                  <td><strong>0.87</strong></td>
+                  <td><strong>0.97</strong></td>
+                  <td><strong>0.86</strong></td>
+                  <td><strong>0.94</strong></td>
+                  <td><strong>0.89</strong></td>
+                  <td><strong>0.91 (0.04)</strong></td>
                 </tr>
-                <tr><td colspan="12" style="text-align:center; background:#e0e7ef;"><b>Leave-One-Out (Test MAE) ↓</b></td></tr>
                 <tr>
+                  <td rowspan="4" class="has-text-weight-semibold has-background-light"><strong>NIH</strong></td>
                   <td>Baseline</td>
-                  <td>3.36</td><td>3.90</td><td>4.41</td><td>5.40</td><td>3.25</td><td><b>4.31</b></td><td>3.56</td><td><b>4.15</b></td><td>3.50</td><td>1.44</td><td>3.73 (0.97)</td>
+                  <td><strong>0.70</strong></td>
+                  <td>0.81</td>
+                  <td><strong>0.76</strong></td>
+                  <td>0.86</td>
+                  <td>0.77</td>
+                  <td>0.78 (0.06)</td>
                 </tr>
                 <tr>
+                  <td>MDAN</td>
+                  <td>0.67</td>
+                  <td>0.89</td>
+                  <td>0.76</td>
+                  <td>0.86</td>
+                  <td>0.77</td>
+                  <td>0.79 (0.08)</td>
+                </tr>
+                <tr>
+                  <td>TENT</td>
+                  <td>0.61</td>
+                  <td>0.70</td>
+                  <td>0.64</td>
+                  <td>0.81</td>
+                  <td>0.67</td>
+                  <td>0.69 (0.07)</td>
+                </tr>
+                <tr class="has-background-info-light">
                   <td>HyDA</td>
-                  <td><b>2.86</b></td><td><b>3.44</b></td><td><b>4.14</b></td><td><b>5.20</b></td><td><b>3.16</b></td><td>4.48</td><td><b>3.45</b></td><td>4.24</td><td><b>3.35</b></td><td><b>1.34</b></td><td><b>3.57 (1.00)</b></td>
+                  <td>0.68</td>
+                  <td><strong>0.89</strong></td>
+                  <td>0.75</td>
+                  <td><strong>0.88</strong></td>
+                  <td><strong>0.79</strong></td>
+                  <td><strong>0.80 (0.08)</strong></td>
+                </tr>
+                <tr>
+                  <td rowspan="4" class="has-text-weight-semibold has-background-light"><strong>CheXpert</strong></td>
+                  <td>Baseline</td>
+                  <td>0.81</td>
+                  <td><strong>0.86</strong></td>
+                  <td>0.73</td>
+                  <td>0.87</td>
+                  <td>0.74</td>
+                  <td>0.80 (0.06)</td>
+                </tr>
+                <tr>
+                  <td>MDAN</td>
+                  <td>0.77</td>
+                  <td>0.76</td>
+                  <td>0.71</td>
+                  <td>0.84</td>
+                  <td>0.72</td>
+                  <td>0.76 (0.05)</td>
+                </tr>
+                <tr>
+                  <td>TENT</td>
+                  <td>0.76</td>
+                  <td>0.86</td>
+                  <td>0.77</td>
+                  <td>0.89</td>
+                  <td>0.76</td>
+                  <td>0.81 (0.06)</td>
+                </tr>
+                <tr class="has-background-info-light">
+                  <td>HyDA</td>
+                  <td><strong>0.82</strong></td>
+                  <td>0.85</td>
+                  <td><strong>0.82</strong></td>
+                  <td><strong>0.89</strong></td>
+                  <td><strong>0.74</strong></td>
+                  <td><strong>0.82 (0.05)</strong></td>
+                </tr>
+                <tr>
+                  <td rowspan="4" class="has-text-weight-semibold has-background-light"><strong>VinDr</strong></td>
+                  <td>Baseline</td>
+                  <td>0.60</td>
+                  <td>0.76</td>
+                  <td>0.85</td>
+                  <td>0.88</td>
+                  <td>0.91</td>
+                  <td>0.80 (0.11)</td>
+                </tr>
+                <tr>
+                  <td>MDAN</td>
+                  <td><strong>0.68</strong></td>
+                  <td>0.82</td>
+                  <td>0.88</td>
+                  <td>0.87</td>
+                  <td>0.89</td>
+                  <td>0.83 (0.08)</td>
+                </tr>
+                <tr>
+                  <td>TENT</td>
+                  <td>0.51</td>
+                  <td>0.72</td>
+                  <td>0.80</td>
+                  <td>0.74</td>
+                  <td>0.86</td>
+                  <td>0.73 (0.12)</td>
+                </tr>
+                <tr class="has-background-info-light">
+                  <td>HyDA</td>
+                  <td>0.66</td>
+                  <td><strong>0.87</strong></td>
+                  <td><strong>0.93</strong></td>
+                  <td><strong>0.89</strong></td>
+                  <td><strong>0.92</strong></td>
+                  <td><strong>0.85 (0.10)</strong></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p><b>Ablation:</b> Replacing some internal layers with domain-specific (external) ones improves performance over the baseline, with the best results achieved by combining both task- and domain-specific weights.</p>
-          <p><b>Visualization:</b> t-SNE plots show that HyDA embeds previously unseen domains between known domains, demonstrating its ability to interpolate and adapt at test time.</p>
-          <h3 class="title is-4">2. Chest X-ray Pathology Classification</h3>
-          <p><b>Data:</b> NIH, CheXpert, and VinDr datasets, 90,570 X-ray scans, 5 common pathologies.</p>
-          <p><b>Task:</b> Multi-label classification of chest X-ray pathologies.</p>
-          <p><b>Model:</b> DenseNet121 with a domain classifier and a hypernetwork generating domain-specific weights.</p>
-          <p><b>Key Results (AUC):</b></p>
-          <div style="overflow-x:auto;">
-            <table class="table is-fullwidth" style="border-collapse:collapse; font-size:0.97em;">
-              <style>
-                .hyda-table2 th {
-                  background: #3b4a5a;
-                  color: #fff;
-                  border-bottom: 2px solid #2c3844;
-                  text-align: center;
-                }
-                .hyda-table2 td {
-                  border: 1px solid #d1d5db;
-                  text-align: center;
-                  background: #f7fafc;
-                }
-                .hyda-table2 tr:nth-child(even) td {
-                  background: #e3e8ee;
-                }
-                .hyda-table2 tr:hover td {
-                  background: #c7d2e5;
-                }
-                .hyda-table2 caption {
-                  caption-side: top;
-                  font-weight: bold;
-                  color: #2c3844;
-                  margin-bottom: 0.5em;
-                }
-              </style>
-              <caption>Chest X-ray Pathology Classification Results</caption>
+
+          <p class="is-size-7 has-text-grey has-text-centered">
+            <strong>Abbreviations:</strong> Atel: Atelectasis, Cardio: Cardiomegaly, Cons: Consolidation, Eff: Effusion, Pneu: Pneumothorax<br>
+            <strong>Note:</strong> Each group compares models on the same target domain. Best results are in <strong>bold</strong>.
+          </p>
+
+          <h3 class="title is-4">MRI Brain Age Prediction</h3>
+          <p>
+            For brain age prediction, we used multiple MRI datasets including ADNI, AIBL, OASIS, and others. The regression task results demonstrate HyDA's effectiveness across different evaluation protocols.
+          </p>
+
+          <h4 class="title is-5">Brain Age Prediction Results (MAE ↓)</h4>
+
+          <h5 class="title is-6">Fully Supervised (Validation MAE)</h5>
+          <div class="table-container">
+            <table class="table is-striped is-hoverable is-fullwidth has-text-centered is-size-7">
               <thead>
-                <tr class="hyda-table2">
-                  <th rowspan="2" class="hyda-table2">Target Domain</th>
-                  <th rowspan="2" class="hyda-table2">Method</th>
-                  <th colspan="5" class="hyda-table2">Pathologies (AUC) ↑</th>
-                  <th rowspan="2" class="hyda-table2">Avg.</th>
-                </tr>
-                <tr class="hyda-table2">
-                  <th class="hyda-table2">Atel.</th>
-                  <th class="hyda-table2">Cardio.</th>
-                  <th class="hyda-table2">Cons.</th>
-                  <th class="hyda-table2">Eff.</th>
-                  <th class="hyda-table2">Pneu.</th>
+                <tr class="has-background-light">
+                  <th class="has-text-weight-bold">Model</th>
+                  <th class="has-text-weight-bold">CNP</th>
+                  <th class="has-text-weight-bold">NKI</th>
+                  <th class="has-text-weight-bold">ixi</th>
+                  <th class="has-text-weight-bold">OASIS</th>
+                  <th class="has-text-weight-bold">ABIDE</th>
+                  <th class="has-text-weight-bold">ADNI</th>
+                  <th class="has-text-weight-bold">AIBL</th>
+                  <th class="has-text-weight-bold">PPMI</th>
+                  <th class="has-text-weight-bold">Camcan</th>
+                  <th class="has-text-weight-bold">SLIM</th>
+                  <th class="has-text-weight-bold">Avg. (std)</th>
                 </tr>
               </thead>
               <tbody>
-                <tr><td rowspan="3">-</td><td>Baseline</td><td>0.85</td><td>0.95</td><td>0.86</td><td>0.94</td><td>0.87</td><td>0.89</td></tr>
-                <tr><td>MDAN</td><td>0.86</td><td>0.96</td><td>0.86</td><td>0.94</td><td>0.88</td><td>0.90</td></tr>
-                <tr><td>HyDA</td><td><b>0.87</b></td><td><b>0.97</b></td><td><b>0.86</b></td><td><b>0.94</b></td><td><b>0.89</b></td><td><b>0.91</b></td></tr>
-                <tr><td rowspan="4">NIH</td><td>Baseline</td><td><b>0.70</b></td><td>0.81</td><td><b>0.76</b></td><td>0.86</td><td>0.77</td><td>0.78</td></tr>
-                <tr><td>MDAN</td><td>0.67</td><td>0.89</td><td>0.76</td><td>0.86</td><td>0.77</td><td>0.79</td></tr>
-                <tr><td>TENT</td><td>0.61</td><td>0.70</td><td>0.64</td><td>0.81</td><td>0.67</td><td>0.69</td></tr>
-                <tr><td>HyDA</td><td>0.68</td><td><b>0.89</b></td><td>0.75</td><td><b>0.88</b></td><td><b>0.79</b></td><td><b>0.80</b></td></tr>
-                <tr><td rowspan="4">CheXpert</td><td>Baseline</td><td>0.81</td><td><b>0.86</b></td><td>0.73</td><td>0.87</td><td>0.74</td><td>0.80</td></tr>
-                <tr><td>MDAN</td><td>0.77</td><td>0.76</td><td>0.71</td><td>0.84</td><td>0.72</td><td>0.76</td></tr>
-                <tr><td>TENT</td><td>0.76</td><td>0.86</td><td>0.77</td><td>0.89</td><td>0.76</td><td>0.81</td></tr>
-                <tr><td>HyDA</td><td><b>0.82</b></td><td>0.85</td><td><b>0.82</b></td><td><b>0.89</b></td><td><b>0.74</b></td><td><b>0.82</b></td></tr>
-                <tr><td rowspan="4">VinDr</td><td>Baseline</td><td>0.60</td><td>0.76</td><td>0.85</td><td>0.88</td><td>0.91</td><td>0.80</td></tr>
-                <tr><td>MDAN</td><td><b>0.68</b></td><td>0.82</td><td>0.88</td><td>0.87</td><td>0.89</td><td>0.83</td></tr>
-                <tr><td>TENT</td><td>0.51</td><td>0.72</td><td>0.80</td><td>0.74</td><td>0.86</td><td>0.73</td></tr>
-                <tr><td>HyDA</td><td>0.66</td><td><b>0.87</b></td><td><b>0.93</b></td><td><b>0.89</b></td><td><b>0.92</b></td><td><b>0.85</b></td></tr>
+                <tr>
+                  <td class="has-text-weight-semibold">Baseline</td>
+                  <td>3.11</td>
+                  <td>3.01</td>
+                  <td>3.54</td>
+                  <td><strong>3.29</strong></td>
+                  <td>2.09</td>
+                  <td><strong>2.80</strong></td>
+                  <td><strong>2.74</strong></td>
+                  <td>4.23</td>
+                  <td>3.35</td>
+                  <td>0.47</td>
+                  <td>2.86 (0.96)</td>
+                </tr>
+                <tr class="has-background-info-light">
+                  <td class="has-text-weight-semibold">HyDA</td>
+                  <td><strong>2.39</strong></td>
+                  <td><strong>2.92</strong></td>
+                  <td><strong>3.22</strong></td>
+                  <td><strong>3.29</strong></td>
+                  <td><strong>1.74</strong></td>
+                  <td>3.04</td>
+                  <td>2.94</td>
+                  <td><strong>3.94</strong></td>
+                  <td><strong>3.21</strong></td>
+                  <td><strong>0.37</strong></td>
+                  <td><strong>2.71 (0.95)</strong></td>
+                </tr>
               </tbody>
             </table>
           </div>
-          <p><b>Ablation:</b> Each loss component (cross-entropy, multi-similarity, hypernetwork loss) contributes to improved performance.</p>
-          <p><b>Visualization:</b> t-SNE plots show that HyDA's domain features cluster well, especially for domains not seen during training, supporting robust adaptation.</p>
+
+          <h5 class="title is-6">Leave-One-Out (Test MAE)</h5>
+          <div class="table-container">
+            <table class="table is-striped is-hoverable is-fullwidth has-text-centered is-size-7">
+              <thead>
+                <tr class="has-background-light">
+                  <th class="has-text-weight-bold">Model</th>
+                  <th class="has-text-weight-bold">CNP</th>
+                  <th class="has-text-weight-bold">NKI</th>
+                  <th class="has-text-weight-bold">ixi</th>
+                  <th class="has-text-weight-bold">OASIS</th>
+                  <th class="has-text-weight-bold">ABIDE</th>
+                  <th class="has-text-weight-bold">ADNI</th>
+                  <th class="has-text-weight-bold">AIBL</th>
+                  <th class="has-text-weight-bold">PPMI</th>
+                  <th class="has-text-weight-bold">Camcan</th>
+                  <th class="has-text-weight-bold">SLIM</th>
+                  <th class="has-text-weight-bold">Avg. (std)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="has-text-weight-semibold">Baseline</td>
+                  <td>3.36</td>
+                  <td>3.90</td>
+                  <td>4.41</td>
+                  <td>5.40</td>
+                  <td>3.25</td>
+                  <td><strong>4.31</strong></td>
+                  <td>3.56</td>
+                  <td><strong>4.15</strong></td>
+                  <td>3.50</td>
+                  <td>1.44</td>
+                  <td>3.73 (0.97)</td>
+                </tr>
+                <tr class="has-background-info-light">
+                  <td class="has-text-weight-semibold">HyDA</td>
+                  <td><strong>2.86</strong></td>
+                  <td><strong>3.44</strong></td>
+                  <td><strong>4.14</strong></td>
+                  <td><strong>5.20</strong></td>
+                  <td><strong>3.16</strong></td>
+                  <td>4.48</td>
+                  <td><strong>3.45</strong></td>
+                  <td>4.24</td>
+                  <td><strong>3.35</strong></td>
+                  <td><strong>1.34</strong></td>
+                  <td><strong>3.57 (1.00)</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="is-size-7 has-text-grey has-text-centered">
+            <strong>Note:</strong> Best scores are in <strong>bold</strong>.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End Results Section -->
+<!-- End experiments and results -->
+
+<!-- Ablation Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Ablation Study</h2>
+        <div class="content has-text-justified">
+          <p>
+            We conducted ablation studies to evaluate the contribution of each loss term in HyDA and to verify HyDA's robustness to the external layer configuration.
+          </p>
+          <div id="ablation-carousel" class="carousel results-carousel" style="margin-bottom: 1.5em;">
+            <div class="item">
+              <img src="static/images/ablation1.png" alt="Ablation Table" style="max-width: 100%; height: auto;"/>
+              <h3 class="subtitle has-text-centered">Ablation table: Effect of loss terms on AUC (Table 2)</h3>
+            </div>
+            <div class="item">
+              <img src="static/images/ablation2.png" alt="Ablation Visualization" style="max-width: 100%; height: auto;"/>
+              <h3 class="subtitle has-text-centered">Ablation visualization: Additional analysis</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End ablation section -->
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>@article{serebro2025hyda,
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{serebro2025hyda,
   title={HyDA: Hypernetworks for Test Time Domain Adaptation in Medical Imaging Analysis},
   author={Serebro, Doron and Riklin-Raviv, Tammy},
-  journal={arXiv preprint arXiv:2503.04979},
-  year={2025}
+  journal={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  year={2025},
+  publisher={Springer}
 }</code></pre>
-    </div>
+  </div>
 </section>
 <!--End BibTex citation -->
-
 
   <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
 
   </body>
   </html>
